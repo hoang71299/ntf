@@ -1,4 +1,10 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
+    .ntf_footer_top{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 992px) {
     .ntf_right_item:not(:last-child){
         display: none;
     }
@@ -31,9 +37,7 @@
     .ntf_footer_top{
         flex-direction: column;
     }
-    .ntf_footer_right div{
-        display: flex;
-    }
+  
 }
 @media screen and (max-width: 576px) {
     .ntf_info_btn{
@@ -56,5 +60,8 @@
     .ntf_subscribe{
         margin-left: 0;
         width: 420px;
+    }
+    .ntf_header{
+        padding: 2rem 1rem;
     }
 }
