@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
     .ntf_right_item:not(:last-child){
         display: none;
     }
