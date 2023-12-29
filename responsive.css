@@ -31,6 +31,9 @@
     .ntf_footer_top{
         flex-direction: column;
     }
+    .ntf_footer_right div{
+        display: flex;
+    }
 }
 @media screen and (max-width: 576px) {
     .ntf_info_btn{
